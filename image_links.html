@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main {
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Reagan Website!</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#menu">Menu</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website. We specialize in providing information about technology, nature, and food.</p>
+        <a href="https://www.example.com/technology"><img src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Technology"></a>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.example.com/nature1"><img src="https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Nature 1"></a>
+            <a href="https://www.example.com/nature2"><img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="Nature 2"></a>
+            <a href="https://www.example.com/nature3"><img src="https://images.pexels.com/photos/1820563/pexels-photo-1820563.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Nature 3"></a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="https://www.example.com/food1"><img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Food 1"> Food Item 1</a></li>
+            <li><a href="https://www.example.com/food2"><img src="https://media.istockphoto.com/id/637885986/photo/traditional-african-food-ugali-fish-and-greens.jpg?b=1&s=612x612&w=0&k=20&c=LxH1B7u21Miu9TRYp-rxjIvGz7PUYj8DmBuoKBs9oNI=" alt="Food 2"> Food Item 2</a></li>
+            <li><a href="https://www.example.com/food3"><img src="https://images.pexels.com/photos/954677/pexels-photo-954677.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Food 3"> Food Item 3</a></li>
+        </ul>
+    </section>
+</main>
+
+</body>
+</html>
